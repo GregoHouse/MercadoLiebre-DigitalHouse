@@ -1,0 +1,657 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+div.top-header{
+    padding: 5px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+.form{
+    padding-left: 10px;
+}
+header nav{
+    font-size: 12px;
+    display: none;
+    padding-bottom: 10px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    display: flex;
+    border-radius: 5px;
+    height: 30px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 0px solid #000;
+    color: #666;
+    width: 10%;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 20px;
+    align-items: center;
+     
+     
+    
+}
+
+
+ 
+
+/* {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    height: 18px;
+    background-color: white;
+    width: 195px;
+    border: 1px solid #000;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+     
+     
+}*/
+
+
+header div.top-header p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+     
+}
+
+
+.price{
+    font-size: 18px;
+    width: auto;
+    text-align: left;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+main section article{
+    background-color: #fff;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+ 
+
+article {
+    margin: 10px 0px; /* margin-bottom: 10px*/
+    transition: all 450ms;
+    
+}
+
+article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+}
+ 
+
+.main-article {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.auto-envio {
+    border: 2px solid #39b54a;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 450ms;
+}
+
+.auto-envio:hover {
+    transform: rotate(-90deg);
+}
+    
+
+.buscar-productos{
+    color: #666;
+    background-color: white;
+    border:none; 
+    border-right: none;
+    outline: none;
+    width: 100%;
+     
+    
+}
+
+.submit {
+    cursor: pointer;
+}
+ 
+.burger-menu{
+    cursor: pointer;
+}
+
+h5 {
+    color: #666;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer section p { 
+    text-align: center;
+    color: #666;
+    margin: 5px 30px 0px 30px;
+}
+
+.copyright {
+    text-align: left;
+    color: #666;
+    margin-left: 10px;
+}
+
+
+footer section div {
+    color: #1259c3;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer section {
+    margin-bottom: 30px ;
+}
+
+.precio-descuento {
+    display: flex;
+    justify-content:start;
+}
+
+.discount {
+    width: 70% ;
+    text-align: center;
+     
+}
+
+ div.main-article {
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative; 
+    
+}
+.precio-mas-descuento {
+    display: flex;
+    width: 80%;
+
+}
+
+
+
+main section article i {
+    display: block ;
+    font-size: 16 px ;
+    padding: 5 px ;
+    width: 30 px ;
+    height: 30 px ;
+    border: 1 px solid #39b54a ;
+    background-color: #FFF ;
+    border-radius: 50% ;
+    position: absolute ;
+    right: 20px ;
+    top:-15px
+}
+
+.logo-mas-buscador {
+    display: flex;
+}
+
+ 
+
+.logo-mercadolibre {
+    height: 34px;
+    width: 134px;
+}
+ 
+.main-login, .main-register {
+     width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.35;
+}
+
+ .wrap{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .titulo-central-card{
+    font-size: 12px;
+    margin: 50px 0;
+    padding: 0 10px;
+}
+
+.contenedor-central-main-login-register{
+    background-color:#EAC926 ;
+    height: 150px;   
+}
+
+.tarjeta-central-login{ 
+    width: 70%;
+    text-align: center;
+    margin: -6rem auto 0; 
+    background-color: #fff;
+    border-radius: 6px;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    padding-bottom: 15px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    align-items: center;
+     
+}
+
+.ingresar-boton-login{
+    background-color: #3483fa;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    padding: 0 10%;
+    text-align: center;
+    margin: 3% 0;
+    align-self: center;
+    width: 80%;
+     
+}
+
+.boton-crear-cuenta {
+    color:#3483fa ;
+    background-color: #fff;
+    border-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    padding: 0 10%;
+    text-align: center;
+    margin: 1% 0;
+    align-self: center;
+    width: 80%;
+     
+}
+
+.recuperar-cuenta {
+    color:#3483fa;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.ingresar-boton-login:hover {
+    background-color: #1259c3;
+    cursor: pointer;
+}
+
+.boton-crear-cuenta:hover {
+    background-color: rgb(224, 224, 224);
+    border-color: transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80%;
+    cursor: pointer;
+}
+
+
+.nombre-de-usuario, .contraseña {
+    color: rgba(0,0,0,.9);
+    cursor: text;
+    font-size: 14px;
+    font-weight: 400;
+    align-self: flex-start;
+    padding-left: 11%;
+    font-style: italic;
+}
+
+
+
+.input-nombre-usuario, .input-contraseña {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 25%);
+    font-size: 16px;
+    min-height: 48px;
+    width: 80%;
+    padding-left: 5px;
+}
+
+input:focus {
+    border-color: #3483fa;
+    outline: none;
+    border-width: 2px;
+    
+
+}
+
+.tarjeta-central-register{
+    width: 80%;
+    text-align: center;
+    margin: -6rem auto 0; 
+    background-color: #fff;
+    border-radius: 6px;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    padding-bottom: 15px;
+}
+
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;  
+    padding: 0 5%;
+     
+}
+ 
+
+.enviar-boton-register, .reset-boton-register {
+    margin-top: 15px;
+    width: 70px;
+    align-self: center;
+}
+
+.label-nombre-apellido, .label-usuario-register, .label-fecha-nacimiento, .label-domicilio, .perfil-usuario, .categoria-interes, .label-foto-usuario, .label-contraseña, .label-confirmar-pass {
+    color: rgba(0,0,0,.9);
+    cursor: text;
+    font-size: 14px;
+    font-weight: 400;
+    align-self: flex-start;
+    padding-left: 0%;
+    font-style: italic;
+}
+
+  .comprador, .vendedor, .Electro, .Moda, .Hogar, .Juguetería, .Vida-sana {
+    color: rgba(0,0,0,.9);
+    cursor: text;
+    font-size: 14px;
+    font-weight: 400;
+    align-self: flex-start;
+    padding-left: 0%;
+     
+} 
+
+.perfil-usuario, .categoria-interes, .label-fecha-nacimiento, .label-nombre-apellido, .label-domicilio, .label-usuario-register, .label-foto-usuario, .label-contraseña, .label-confirmar-pass{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#nombre-de-usuario, #nombre-y-apellido, #domicilio, #contraseña, #contraseña-confirmacion {
+    width: 60%;
+    border-radius: 4px;
+    min-height: 35px;
+    padding-left: 5px;
+    
+}
+#fecha-nacimiento {
+    width: 40%;
+    border-radius: 4px;
+    min-height: 35px;
+}
+ 
+ .enviar-boton-register, .reset-boton-register {
+    background-color: #3483fa;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    padding: 0 10%;
+    text-align: center;
+    margin: 3% 0;
+    align-self: center;
+    width: 80%;
+ }
+
+ .enviar-boton-register:hover, .reset-boton-register:hover {
+    background-color: #1259c3;
+    cursor: pointer;
+ }
+ 
+span {
+    color: red;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+ 
+/*
+.description {
+    color: white;
+
+}
+
+article:hover .description{
+    
+    color: #666
+
+    }*/
+
+ 
+
+ 
+ 
+@media (min-width: 361px) {
+      div.main-article {
+        display: block;
+         
+    }
+     
+     
+      .description {
+        display: block;
+        margin-top: 20px;
+        
+    }
+
+
+    .discount {
+        text-align:right;
+    }
+}
+
+
+@media (min-width: 361px) {
+
+    article  {
+        width: 48%;
+    }
+   
+     .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;    
+    }
+
+
+    .primer-nav {
+        width: 100%;
+        padding-right: 90px;
+        display: flex;
+        justify-content: space-around;
+
+         
+    }
+
+    .segundo-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+ }
+
+ @media (min-width: 576px) {
+    .description {
+        color: white;
+        transition: all 600ms;
+    
+    }
+    
+    article:hover .description{
+        
+        color: #666
+    
+        }
+
+}
+
+ @media (min-width: 630px) {
+     .navegadores {
+         display: flex;
+     }
+ }
+
+ @media (min-width: 630px) {
+    .burger-menu{
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .products {
+       display: flex;
+   }
+   main section article {
+    width: 23%;
+}
+.precio-mas-descuento {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    position: relative;
+}
+.copyright {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.tarjeta-central-login{ 
+    width: 35%;
+}
+
+.tarjeta-central-register{
+    width: 45%; 
+ }
+   
+}
+
+@media (min-width: 927px) {
+    .products {
+       display: flex;
+   }
+   main section article {
+    width: 23%;
+}
+.precio-mas-descuento {
+    width: 80%;
+}
+
+   
+}
+
+
+/* BREAK POINTS
+- aplicar todo para mobile first
+- min 576px
+- min 768px
+- min 992px
++ min 1200px
+
+*/
